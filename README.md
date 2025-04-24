@@ -1,5 +1,5 @@
 # Acoustic-Based-Fault-Detection-in-Slurry-Mixer-Motors
-This repository contains code for processing vibration/audio signals from a 3-phase induction motor, extracting DSP features (Mel spectrograms), and training a deep convolutional neural network for anomaly detection (predictive maintenance).
+This repository contains code for processing vibration/audio signals from a slurry mixer motor, extracting DSP features (Mel spectrograms), and training a deep convolutional neural network for anomaly detection (predictive maintenance).
 
 ---
 ### Quick Visualizations
@@ -19,7 +19,7 @@ This repository contains code for processing vibration/audio signals from a 3-ph
 
 ## Overview
 
-This project demonstrates a pipeline for predictive maintenance of a 3-phase induction motor using digital signal processing (DSP) and deep learning. The key steps are:
+This project demonstrates a pipeline for predictive maintenance of a slurry mixer motor using digital signal processing (DSP) and deep learning. The key steps are:
 
 1. **Feature Extraction**: Convert raw `.wav` recordings into Mel spectrograms.
 2. **Dataset Preparation**: Load processed features into a PyTorch Dataset.
